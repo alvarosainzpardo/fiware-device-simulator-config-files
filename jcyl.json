@@ -11,7 +11,7 @@
   },
   "devices": [
     {
-      "schedule": "*/30 * * * * *",
+      "schedule": "0 0 * * * *",
       "protocol": "UltraLight::HTTP",
       "device_id": "prueba1",
       "attributes": [{
@@ -22,7 +22,7 @@
         "value": "time-random-linear-interpolator({\"spec\": [[0,random(68,70)],[16,random(75,80)],[21,random(72,74)],[24,random(68,70)]], \"return\": {\"type\": \"float\"}})"
       }]
     },{
-      "schedule": "*/30 * * * * *",
+      "schedule": "0 0 * * * *",
       "protocol": "UltraLight::HTTP",
       "device_id": "prueba2",
       "attributes": [{

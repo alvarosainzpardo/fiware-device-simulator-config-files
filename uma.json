@@ -1,0 +1,26 @@
+{
+  "iota": {
+    "ultralight": {
+      "api_key": "48bazpo7ffsuzd41t1mt79ger",
+      "http": {
+        "protocol": "https",
+        "host": "150.214.58.178",
+        "port": 8896
+      }
+    }
+  },
+  "devices": [
+    {
+      "schedule": "*/30 * * * * *",
+      "protocol": "UltraLight::HTTP",
+      "device_id": "THR_A001",
+      "attributes": [{
+        "object_id": "t",
+        "value": "time-random-linear-interpolator({\"spec\": [[0,random(8,10)],[16,random(20,24)],[21,random(16,18)],[24,random(8,10)]], \"return\": {\"type\": \"float\"}})"
+      },{
+        "object_id": "hr",
+        "value": "time-random-linear-interpolator({\"spec\": [[0,random(68,70)],[16,random(75,80)],[21,random(72,74)],[24,random(68,70)]], \"return\": {\"type\": \"float\"}})"
+      }]
+    }
+  ]
+}

@@ -3,9 +3,9 @@
     "ultralight": {
       "api_key": "48bazpo7ffsuzd41t1mt79ger",
       "http": {
-        "protocol": "https",
+        "protocol": "http",
         "host": "150.214.58.178",
-        "port": 8896
+        "port": 7896
       }
     }
   },

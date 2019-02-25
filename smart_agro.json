@@ -11,7 +11,7 @@
   },
   "devices": [
     {
-      "schedule": "0 0 */1 * * *",
+      "schedule": "0 5 */1 * * *",
       "protocol": "UltraLight::HTTP",
       "device_id": "AP_COR_IE_074",
       "attributes": [{
@@ -19,7 +19,7 @@
         "value": "time-random-linear-interpolator({\"spec\": [[0,random(0,5)],[16,random(20,35)],[21,random(10,20)],[24,random(0,5)]], \"return\": {\"type\": \"float\"}})"
       }]
     },{
-      "schedule": "0 0 */1 * * *",
+      "schedule": "0 27 */1 * * *",
       "protocol": "UltraLight::HTTP",
       "device_id": "AP_COR_IE_084",
       "attributes": [{

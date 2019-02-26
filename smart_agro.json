@@ -13,7 +13,7 @@
     {
       "schedule": "0 5 */1 * * *",
       "protocol": "UltraLight::HTTP",
-      "device_id": "AP_COR_IE_074",
+      "device_id": "AP_COR_IE_086",
       "attributes": [{
         "object_id": "ir",
         "value": "time-random-linear-interpolator({\"spec\": [[0,random(0,5)],[16,random(20,35)],[21,random(10,20)],[24,random(0,5)]], \"return\": {\"type\": \"float\"}})"
@@ -21,7 +21,15 @@
     },{
       "schedule": "0 27 */1 * * *",
       "protocol": "UltraLight::HTTP",
-      "device_id": "AP_COR_IE_084",
+      "device_id": "AP_COR_IE_087",
+      "attributes": [{
+        "object_id": "ir",
+        "value": "time-random-linear-interpolator({\"spec\": [[0,random(0,5)],[16,random(20,35)],[21,random(10,20)],[24,random(0,5)]], \"return\": {\"type\": \"float\"}})"
+      }]
+    },{
+      "schedule": "0 50 */1 * * *",
+      "protocol": "UltraLight::HTTP",
+      "device_id": "AP_COR_IE_088",
       "attributes": [{
         "object_id": "ir",
         "value": "time-random-linear-interpolator({\"spec\": [[0,random(0,5)],[16,random(20,35)],[21,random(10,20)],[24,random(0,5)]], \"return\": {\"type\": \"float\"}})"

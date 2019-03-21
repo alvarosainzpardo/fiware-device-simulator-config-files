@@ -25,13 +25,6 @@
     "watch": true,
     "sourceDir": "/home/asainz/projects/fiware/fiware-device-simulator/bin",
     "script": "fiwareDeviceSimulatorCLI",
-    "args": ["-c", "./config-files/smart_agro.json"]
-  },
-  {
-    "append": true,
-    "watch": true,
-    "sourceDir": "/home/asainz/projects/fiware/fiware-device-simulator/bin",
-    "script": "fiwareDeviceSimulatorCLI",
     "args": ["-c", "./config-files/dos_hermanas.json"]
   }
 ]

@@ -32,6 +32,20 @@
     "watch": true,
     "sourceDir": "/home/asainz/projects/fiware/fiware-device-simulator/bin",
     "script": "fiwareDeviceSimulatorCLI",
-    "args": ["-c", "./config-files/smart_agro.json"]
+    "args": ["-c", "./config-files/smart_agro_cordoba_eficiencia_hidrica.json"]
+  },
+  {
+    "append": true,
+    "watch": true,
+    "sourceDir": "/home/asainz/projects/fiware/fiware-device-simulator/bin",
+    "script": "fiwareDeviceSimulatorCLI",
+    "args": ["-c", "./config-files/smart_agro_almeria_eficiencia_hidrica.json"]
+  },
+  {
+    "append": true,
+    "watch": true,
+    "sourceDir": "/home/asainz/projects/fiware/fiware-device-simulator/bin",
+    "script": "fiwareDeviceSimulatorCLI",
+    "args": ["-c", "./config-files/smart_agro_almeria_plagas.json"]
   }
 ]

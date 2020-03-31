@@ -11,7 +11,7 @@
   },
   "devices": [
     {
-      "schedule": "* */15 * * * *",
+      "schedule": "0 */15 * * * *",
       "protocol": "JSON::HTTP",
       "device_id": "dev_soil_pro_33180",
       "attributes": [
@@ -29,7 +29,7 @@
         },
         {
          "object_id": "shum",
-         "value": "time-random-linear-interpolator({\"spec\": [[0,random(0,5)],[16,random(24,26)],[21,random(10,20)],[24,random(0,5)]], \"return\": {\"type\": \"float\"}})"
+         "value": "time-random-linear-interpolator({\"spec\": [[0,random(0,5)],[16,random(20,24)],[21,random(10,20)],[24,random(0,5)]], \"return\": {\"type\": \"float\"}})"
         },
         {
          "object_id": "st",
@@ -50,7 +50,7 @@
       ]
     },
     {
-      "schedule": "* */15 * * * *",
+      "schedule": "10 */15 * * * *",
       "protocol": "JSON::HTTP",
       "device_id": "dev_soil_pro_1588",
       "attributes": [
@@ -68,7 +68,7 @@
         },
         {
          "object_id": "shum",
-         "value": "time-random-linear-interpolator({\"spec\": [[0,random(0,5)],[16,random(24,26)],[21,random(10,20)],[24,random(0,5)]], \"return\": {\"type\": \"float\"}})"
+         "value": "time-random-linear-interpolator({\"spec\": [[0,random(30,35)],[16,random(80,85)],[21,random(10,20)],[24,random(30,35)]], \"return\": {\"type\": \"float\"}})"
         },
         {
          "object_id": "st",
@@ -89,13 +89,13 @@
       ]
     },
     {
-      "schedule": "* */15 * * * *",
+      "schedule": "20 */15 * * * *",
       "protocol": "JSON::HTTP",
       "device_id": "dev_soil_pro_52271",
       "attributes": [
         {
          "object_id": "t",
-         "value": "time-random-linear-interpolator({\"spec\": [[0,random(0,5)],[16,random(24,26)],[21,random(10,20)],[24,random(0,5)]], \"return\": {\"type\": \"float\"}})"
+         "value": "time-random-linear-interpolator({\"spec\": [[0,random(0,5)],[16,random(10,16)],[21,random(7,10)],[24,random(0,5)]], \"return\": {\"type\": \"float\"}})"
         },
         {
          "object_id": "h",
@@ -128,13 +128,13 @@
       ]
     },
     {
-      "schedule": "* */15 * * * *",
+      "schedule": "30 */15 * * * *",
       "protocol": "JSON::HTTP",
       "device_id": "dev_soil_pro_65449",
       "attributes": [
         {
          "object_id": "t",
-         "value": "time-random-linear-interpolator({\"spec\": [[0,random(0,5)],[16,random(24,26)],[21,random(10,20)],[24,random(0,5)]], \"return\": {\"type\": \"float\"}})"
+         "value": "time-random-linear-interpolator({\"spec\": [[0,random(10,15)],[16,random(24,26)],[21,random(40,45)],[24,random(10,15)]], \"return\": {\"type\": \"float\"}})"
         },
         {
          "object_id": "h",

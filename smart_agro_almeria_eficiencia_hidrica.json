@@ -25,7 +25,7 @@
         },
         {
          "object_id": "bat",
-         "value": "time-random-linear-interpolator({\"spec\": [[0,random(3000,3100)],[16,random(3100,3500)],[21,random(3400,3600)],[24,random(3000,3100)]], \"return\": {\"type\": \"float\"}})"
+         "value": "time-random-linear-interpolator({\"spec\": [[0,random(3.0,3.5)],[24,random(3.0,3.5)]], \"return\": {\"type\": \"float\"}})"
         },
         {
          "object_id": "shum",
@@ -64,7 +64,7 @@
         },
         {
          "object_id": "bat",
-         "value": "time-random-linear-interpolator({\"spec\": [[0,random(3000,3100)],[16,random(3100,3500)],[21,random(3400,3600)],[24,random(3000,3100)]], \"return\": {\"type\": \"float\"}})"
+         "value": "time-random-linear-interpolator({\"spec\": [[0,random(3.0,3.5)],[24,random(3.0,3.5)]], \"return\": {\"type\": \"float\"}})"
         },
         {
          "object_id": "shum",
@@ -103,7 +103,7 @@
         },
         {
          "object_id": "bat",
-         "value": "time-random-linear-interpolator({\"spec\": [[0,random(3000,3100)],[16,random(3100,3500)],[21,random(3400,3600)],[24,random(3000,3100)]], \"return\": {\"type\": \"float\"}})"
+         "value": "time-random-linear-interpolator({\"spec\": [[0,random(3.0,3.5)],[24,random(3.0,3.5)]], \"return\": {\"type\": \"float\"}})"
         },
         {
          "object_id": "shum",
@@ -142,7 +142,7 @@
         },
         {
          "object_id": "bat",
-         "value": "time-random-linear-interpolator({\"spec\": [[0,random(3000,3100)],[16,random(3100,3500)],[21,random(3400,3600)],[24,random(3000,3100)]], \"return\": {\"type\": \"float\"}})"
+         "value": "time-random-linear-interpolator({\"spec\": [[0,random(3.0,3.5)],[24,random(3.0,3.5)]], \"return\": {\"type\": \"float\"}})"
         },
         {
          "object_id": "shum",
